@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="File" android:id="@+id/file">
+        <menu>
+            <item android:title="Save" android:id="@+id/opt_menu_file_save"></item>
+            <item android:title="Save as" android:id="@+id/opt_menu_file_save_as"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/opt_menu_edit" android:title="Edit" />
+    <item android:id="@+id/opt_menu_view" android:title="View" />
+    <item android:id="@+id/opt_menu_logout" android:title="Logout" />
+</menu>
